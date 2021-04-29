@@ -2,16 +2,165 @@
 <html lang="en">
 <head>
     <title>Resume</title>
-    <link src="Reset.css" href="stylesheet">
-    <link src="Resume.css" href="stylesheet">
+    <link src="reset.css" href="stylesheet">
+    <link src="resume.css" href="stylesheet">
+    <link rel="stylesheet" media="print" href="print.css">
+
+
+    <style>
+        /*reset.css*/
+        a {
+            text-decoration: none;
+        } 
+
+        a:visited {
+            color: #F2EDDE;
+        }
+
+        body {
+            margin: 0;
+            font-family: Calibri;
+        }
+
+        .nav-bar {
+            overflow: hidden;
+            background-color: #403332;
+            list-style-type: none;
+            font-family: 'Trebuchet MS';
+        }
+
+        .nav-bar a {
+            float: left;
+            display: block;
+            padding: 14px 16px;
+            text-align: center;
+            color: #F2EDDE;
+            text-decoration: none;
+        }
+
+        .nav-bar a:hover {
+            background-color: #DF901F;
+            color: black;
+        }
+
+        .content {
+            background-color: #F2EDDE;
+            padding: 10px;
+            height: 100vh;
+        }
+
+        .footer {
+            background-color: #dad6c9;
+            padding: 10px;
+            border-top: solid;
+            border-color: #cbc7ba;
+        }
+        /*resume.css*/
+        
+        .doc {
+            margin: 10px;
+            text-decoration: none;
+            background-color: #DF901F;
+            color: #ECEEE8;
+        }
+
+        .summary, .education, .tech-profs, .activities, .history {
+            border-top: solid;
+            border-width: 2.5px;
+            padding-bottom: 10px;
+        }
+
+        .personal-info {
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin:auto;
+        }
+
+        h1 {
+            font-family: "palatino linotype";
+        }
+
+        h2 {
+            margin: 0px 0px 10px 0px;
+        }
+
+        h3{
+            margin: 0px;
+        }
+
+        .work-1 {
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <li><a href="link">About</a></li>
-            <li><a href="link">Resume</a></li>
-            <li><a href="link">Other</a></li>
-        </nav>
-    </header>
+    <!--Navigation-->
+    <div class="nav-bar">
+        <li><a href="link">ABOUT</a></li>
+        <li><a href="link">RESUME</a></li>
+        <li><a href="link">GAME</a></li>
+    </div>
+    <!--Content-->
+    <div class="content">
+        <div class="personal-info">
+            <h1>Samuel Crews</h1>
+            <p>121 WESTWOOD COVE, HUMBOLDT, TN</p>
+            <p>CELL: (731)431-3680 | sbcrews@my.milligan.edu</p>
+        </div>
+        <div class="summary">
+            <h2>SUMMARY</h2>
+            <li>Able to communicate complex information to customers from a variety of backgrounds</li>
+            <li>Maintain confidential information</li>
+            <li>Able to cooperate in a team environment</li>
+            <li>Critical thinking/problem solving</li>
+            <li>Task prioritization to manage deadlines</li>
+            <li>Proficient at resolving conflict</li>
+            <li>Attention to detail </li>
+        </div>
+        <div class="education">
+            <h2>EDUCATION</h2>
+            <p><strong>Bachelor of Science</strong> Computer Information Systems</p>
+            <p>Milligan University | Johnson City, TN | Expected Graduation May 2023</p>
+            <li>Milligan University Academic Merit Scholarship</li>
+        </div>
+        <div class="tech-profs">
+            <h2>TECHNOCAL PROFICIENCIES</h2>
+            <li>Coursework in HMTL5, CSS, & Java Script</li>
+            <li>Coursework in networking and web development </li>
+            <li>Visual Studio IDE</li>
+            <li>Windows operating system</li>
+            <li>AutoCAD 2021 and Inventor 2021</li>
+            <li>Troubleshooting, problem solving, and debugging</li>
+            <li>Certified Microsoft Office Specialist - Word 2019, PowerPoint 2019, Excel, 2019</li>
+        </div>
+        <div class="history">
+            <h2>WORK HOSTORY</h2>
+            <div class="work-1">
+                <h3>HEART AND VASCULAR CENTER OF WEST TENNESSEE</h3>
+                <p>Data Entry | Jackson, TN| May 2018-August 2018</p>
+                <li>Transferred the patient files from one medical records system to another</li>
+                <li>Verified patient medical records</li>
+            </div>
+            <div class="work-2">
+                <h3>DOUG HALE ELECTRIC</h3>
+                <p>Electrician Assistant | Jackson, TN| June 2019-August 2019</p>
+                <li>Purchased, organized, and delivered resources to work sites under daily deadlines</li>
+                <li>Residential and commercial work</li>
+                <li>Helped ensure customer satisfaction by explaining operations</li>
+            </div>
+        </div>
+        <div class="activities">
+            <h2>ACTIVITIES</h2>
+            <p>Milligan Men’s Soccer</p>
+            <li>Milligan University Athletic Scholarship</li>
+        </div>
+        <div class="doc">
+            <button class="doc" style="width:10%"><a href="https://drive.google.com/file/d/156bny_SIp0WSPTeOUJa1lCn9KfMXkYaU/view?usp=sharing">VIEW DOCUMENT</a></button>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer"><p></p></div>
 </body>
 </html>

@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About</title>
-    <link src="Reset.css" href="stylesheet">
-    <link src="Other.css" href="stylesheet">
+    <title>Tic-Tac-Toe</title>
+    <link src="reset.css" href="stylesheet">
+    <link src="other.css" href="stylesheet">
+    <script src="game.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <li><a href="link">About</a></li>
-            <li><a href="link">Resume</a></li>
-            <li><a href="link">Other</a></li>
-        </nav>
-    </header>
+    <!--Navigation-->
+    <div class="nav-bar">
+        <li><a href="link">ABOUT</a></li>
+        <li><a href="link">RESUME</a></li>
+        <li><a href="link">GAME</a></li>
+    </div>
+    <!--Content-->
+    <div class="content">
+        <div class="container">
+            <h1 id="playText">Let's Play</h1>
+            <button id="restartBtn">Restart</button>
+            <div id="gameboard">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+            </div>
+        </div>   
+    </div> 
+      <!--Footer-->
+    <div class="footer"></div>
 </body>
 </html>
