@@ -4,7 +4,7 @@
   body {
     margin: 0;
     padding: 0;
-    color: var(--color);
+    color: #4F140D;
     font-family: sans-serif;
   }
   * {
@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
     font-size: 150px;
-    color: var(--color);
+    color: #4F140D;
   }
   
   .box:hover {
@@ -49,9 +49,9 @@
   button {
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: var(--color);
+    background-color: #4F140D;
     color: white;
-    border-color: var(--color);
+    border-color: #4F140D;
     font-size: 18px;
     transition: 200ms transform;
   }
