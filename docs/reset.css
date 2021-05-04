@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+} 
+
+a:visited {
+    color: #F2EDDE;
+}
+
+body {
+    margin: 0;
+    font-family: Calibri;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #403332;
+    list-style-type: none;
+    font-family: 'Trebuchet MS';
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: #F2EDDE;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: #DF901F;
+    color: black;
+}
+
+.content {
+    background-color: #F2EDDE;
+    padding: 10px;
+    height: 100vh;
+}
+
+.footer {
+    background-color: #dad6c9;
+    padding: 10px;
+    border-top: solid;
+    border-color: #cbc7ba;
+}
